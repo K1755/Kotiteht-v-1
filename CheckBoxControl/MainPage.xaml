@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="CheckBoxControl.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CheckBoxControl"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel>
+            <CheckBox x:Name="butterCheckBox" Content="Butter" Margin="5"/>
+            <CheckBox x:Name="milkCheckBox" Content="Milk" Margin="5"/>
+            <CheckBox x:Name="breadCheckBox" Content="Bread" Margin="5"/>
+            <CheckBox x:Name="juiceCheckBox" Content="Juice" Margin="5"/>
+            <CheckBox x:Name="cerealCheckBox" Content="Cereal" Margin="5"/>
+            <CheckBox x:Name="cookiesCheckBox" Content="Cookies" Margin="5"/>
+            <CheckBox x:Name="coffeeCheckBox" Content="Coffee" Margin="5"/>
+            
+            <Button x:Name="buyButton" Content="Buy" Click="buyButton_Click" Margin="5"/>
+        </StackPanel>
+
+    </Grid>
+</Page>
