@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBoxControl", "CheckBoxControl\CheckBoxControl.csproj", "{ADCACEFB-E4E1-4331-B6A7-F4CDA74318A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckListApp", "CheckListApp\CheckListApp.csproj", "{31325728-D15D-422C-8349-38D38224AB4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -33,6 +35,24 @@ Global
 		{ADCACEFB-E4E1-4331-B6A7-F4CDA74318A2}.Release|x86.ActiveCfg = Release|x86
 		{ADCACEFB-E4E1-4331-B6A7-F4CDA74318A2}.Release|x86.Build.0 = Release|x86
 		{ADCACEFB-E4E1-4331-B6A7-F4CDA74318A2}.Release|x86.Deploy.0 = Release|x86
+		{31325728-D15D-422C-8349-38D38224AB4E}.Debug|ARM.ActiveCfg = Debug|ARM
+		{31325728-D15D-422C-8349-38D38224AB4E}.Debug|ARM.Build.0 = Debug|ARM
+		{31325728-D15D-422C-8349-38D38224AB4E}.Debug|ARM.Deploy.0 = Debug|ARM
+		{31325728-D15D-422C-8349-38D38224AB4E}.Debug|x64.ActiveCfg = Debug|x64
+		{31325728-D15D-422C-8349-38D38224AB4E}.Debug|x64.Build.0 = Debug|x64
+		{31325728-D15D-422C-8349-38D38224AB4E}.Debug|x64.Deploy.0 = Debug|x64
+		{31325728-D15D-422C-8349-38D38224AB4E}.Debug|x86.ActiveCfg = Debug|x86
+		{31325728-D15D-422C-8349-38D38224AB4E}.Debug|x86.Build.0 = Debug|x86
+		{31325728-D15D-422C-8349-38D38224AB4E}.Debug|x86.Deploy.0 = Debug|x86
+		{31325728-D15D-422C-8349-38D38224AB4E}.Release|ARM.ActiveCfg = Release|ARM
+		{31325728-D15D-422C-8349-38D38224AB4E}.Release|ARM.Build.0 = Release|ARM
+		{31325728-D15D-422C-8349-38D38224AB4E}.Release|ARM.Deploy.0 = Release|ARM
+		{31325728-D15D-422C-8349-38D38224AB4E}.Release|x64.ActiveCfg = Release|x64
+		{31325728-D15D-422C-8349-38D38224AB4E}.Release|x64.Build.0 = Release|x64
+		{31325728-D15D-422C-8349-38D38224AB4E}.Release|x64.Deploy.0 = Release|x64
+		{31325728-D15D-422C-8349-38D38224AB4E}.Release|x86.ActiveCfg = Release|x86
+		{31325728-D15D-422C-8349-38D38224AB4E}.Release|x86.Build.0 = Release|x86
+		{31325728-D15D-422C-8349-38D38224AB4E}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
-namespace CheckBoxControl
+namespace CheckListApp
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -27,12 +27,16 @@ namespace CheckBoxControl
             this.InitializeComponent();
         }
 
-        private void InitializeComponent()
-        {
-        }
-
         private void buyButton_Click(object sender, RoutedEventArgs e)
         {
+            string items = "";
+            if ((bool)butterCheckBox.IsChecked) items += butterCheckBox.Content + " ";
+            if ((bool)milkCheckBox.IsChecked) items += butterCheckBox.Content + " ";
+            if ((bool)breadCheckBox.IsChecked) items += butterCheckBox.Content + " ";
+            if ((bool)juiceCheckBox.IsChecked) items += butterCheckBox.Content + " ";
+            if ((bool)cerealCheckBox.IsChecked) items += butterCheckBox.Content + " ";
+            if ((bool)cookiesCheckBox.IsChecked) items += butterCheckBox.Content + " ";
+            if ((bool)coffeeCheckBox.IsChecked) items += butterCheckBox.Content + " ";
 
         }
     }
