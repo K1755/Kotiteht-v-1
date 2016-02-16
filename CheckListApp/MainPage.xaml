@@ -19,6 +19,9 @@
             <CheckBox x:Name="coffeeCheckBox" Content="Coffee" Margin="5"/>
 
             <Button x:Name="buyButton" Content="Buy" Click="buyButton_Click" Margin="5"/>
+            
+            <TextBlock x:Name="shoppingListBlock" TextWrapping="Wrap" Text="" SelectionChanged="shoppingListBlock_SelectionChanged"/>
+
         </StackPanel>
 
     </Grid>

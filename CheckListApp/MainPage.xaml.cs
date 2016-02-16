@@ -39,5 +39,10 @@ namespace CheckListApp
             if ((bool)coffeeCheckBox.IsChecked) items += butterCheckBox.Content + " ";
 
         }
+
+        private void shoppingListBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
